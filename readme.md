@@ -4,6 +4,7 @@ A Rust-based tool to deduplicate two collection which hold a transaction signatu
 
 ## Document Format
 
+```
 {
   "_id": {
     "$oid": "66fd31eecddff3dc2931728e"
@@ -19,6 +20,7 @@ A Rust-based tool to deduplicate two collection which hold a transaction signatu
   },
   "confirmation_status": "Finalized"
 }
+```
 
 ## Features
 

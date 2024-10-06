@@ -1,6 +1,6 @@
 # MongoDB Dedupe
 
-A Rust-based tool to deduplicate two collection which hold a transaction signatures documents between two MongoDB collections. The script loads both the source and target collections into memory, compares their contents, and inserts any unique documents from the source into the target. Optimized for high RAM environments.
+A Rust-based tool to deduplicate two collection which hold (Solana) transaction signatures documents between two MongoDB collections. The script loads both the source and target collections into memory, compares their contents, and inserts any unique documents from the source into the target. Optimized for high RAM environments.
 
 ## Document Format
 

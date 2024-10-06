@@ -70,9 +70,7 @@ Adjust the collection names as needed.
 
 To run the deduplication process, simply execute:
 
-    ```
     cargo run
-    ```
 
 ### Logs
 

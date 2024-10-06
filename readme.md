@@ -50,17 +50,13 @@ You can either use a `.env` file in the project root or set environment variable
 ### Option 1: Create a `.env` file
 Create a `.env` file in the project root with the following content:
 
-    ```
     SOURCE_COLLECTION=SOL_USDC_SIGNATURES
     TARGET_COLLECTION=temp_SOL_USDC_SIGNATURES
-    ```
-
+    
 ### Option 2: Set environment variables directly
 
-    ```
     export SOURCE_COLLECTION=your_source_collection_name
-    export TARGET_COLLECTION=your_target_collection_name
-    ``` 
+    export TARGET_COLLECTION=your_target_collection_name 
 
 Adjust the collection names as needed.
 
